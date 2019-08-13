@@ -71,37 +71,49 @@ The goals of this session are to
 - introduce online resources for power calculations
 - work through **hands-on** examples of calculating power
 
-
 The big picture
 ========================================================
 
 ![](data-flow-steps-analysis-expanded-nopublication-01.svg)
 
+
+The big picture for an hypothesis driven, confirmatory study
+========================================================
+transition: none
+incremental: true
+
+![](data-flow-steps-analysis-expanded-nopublication-01.svg)
+
+The big picture **for an hypothesis driven, confirmatory study**
+========================================================
+transition: none
+incremental: true
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+## How does a **confirmatory study** compare to a **pilot study** or an **exploratory study**?
+
+Hypothesis driven vs pilot study
+========================================================
+
+![](pilot-comparison.svg)
+
+Hypothesis driven vs exploratory study
+========================================================
+
+![](exploratory-comparison.svg)
+
+
 The big picture
 ========================================================
 transition: none
 
-![](data-flow-steps-analysis-expanded-nopublication-02.svg)
-
-The big picture <font color="red">for an hypothesis driven, confirmatory study</font>
-========================================================
-transition: none
-incremental: true
-
-![](data-flow-steps-analysis-expanded-nopublication-02.svg)
-
-# How does this compare to a pilot study or an exploratory study?
-
-Pilot study
-========================================================
-transition: none
-incremental: true
+## For the moment, we are going to focus on hypothesis driven studies.
 
 ![](data-flow-steps-analysis-expanded-nopublication-02.svg)
 
 
-
-Important side note
+Important side note about hypothesis driven studies
 ========================================================
 type: prompt
 incremental: true
@@ -171,6 +183,7 @@ Big picture
 
 ![](data-flow-steps-analysis-expanded-nopublication-03.svg)
 
+Note that the Q changes to A.
 
 Big picture
 ========================================================
