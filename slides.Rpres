@@ -8,7 +8,7 @@ height:768
 transition: fade
 transition-speed: fast
 
-These slides were prepared for the 2019 Vanderbilt Mouse Kidney Injury Workshop [ (link)](https://www.mc.vanderbilt.edu/vckd/events/2019/workshop/) on 13 August 2019.
+These slides were prepared for the 2019 Vanderbilt Mouse Kidney Injury Workshop [(link)](https://www.mc.vanderbilt.edu/vckd/events/2019/workshop/) on 13 August 2019.
 
 <style>
 .reveal h1, .reveal h2, .reveal h3 {
@@ -82,6 +82,24 @@ The big picture
 transition: none
 
 ![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+The big picture <font color="red">for an hypothesis driven, confirmatory study</font>
+========================================================
+transition: none
+incremental: true
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+# How does this compare to a pilot study or an exploratory study?
+
+Pilot study
+========================================================
+transition: none
+incremental: true
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+
 
 Important side note
 ========================================================
@@ -229,4 +247,40 @@ Type II error
 ========================================================
 
 ![](data-flow-steps-analysis-expanded-nopublication-type-2-error-04.svg)
+
+Operating characteristics
+========================================================
+incremental: true
+<br><br>
+## Who cares about **operating characteristics**?
+
+### A **researcher** should understand the sample size needed for a study to generate conclusive results.
+
+### Operating characteristics are helpful quantities for **grant reviewers** and **funding agencies** and anyone who must judge the likelihood that a study will generate conclusive results within budget.
+
+### **Data scientists** calculate operating characteristics to understand the performance of a proposed analysis method.
+
+Operating characteristics
+========================================================
+incremental: true
+<br><br>
+## When should we care about **power**?
+
+### **Grant reviewers** generally prefer to fund projects that will lead to conclusive results.
+
+### **Data scientists** prefer that study analysis plans use methods that maximize power.
+
+
+
+
+
+Operating characteristics
+========================================================
+incremental: true
+<br><br>
+## When should we NOT care about **power**?
+
+### **Grant reviewers** generally prefer to fund projects that will lead to conclusive results.
+
+### **Data scientists** prefer that study analysis plans use methods that maximize power.
 
