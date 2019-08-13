@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5442.6304"
+   height="541.17798"
+   viewBox="0 0 1440.0292 143.18667"
+   version="1.1"
+   id="svg1686"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="failure-to-show-difference-is-not-similarity.svg">
+  <defs
+     id="defs1680" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="2808.3192"
+     inkscape:cy="-551.94755"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     objecttolerance="32"
+     fit-margin-left="5"
+     units="px"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1859"
+     inkscape:window-height="1025"
+     inkscape:window-x="61"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1683">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(799.33314,140.38947)">
+    <rect
+       style="opacity:1;fill:#75ad00;fill-opacity:0.31372549;stroke:#75ad00;stroke-width:3.23210049;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.6"
+       id="rect13941-3"
+       width="425.82376"
+       height="62.966644"
+       x="211.93338"
+       y="-78.44165" />
+    <g
+       id="g14021"
+       transform="matrix(0.2822222,0,0,0.2822222,-658.66296,-640.19324)">
+      <rect
+         y="1990.4586"
+         x="628.54022"
+         height="223.11018"
+         width="1508.8245"
+         id="rect13941"
+         style="opacity:1;fill:#75ad00;fill-opacity:0.31372549;stroke:#75ad00;stroke-width:11.45232582;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.6" />
+      <text
+         id="text96135-0-8"
+         y="2148.614"
+         x="710.52814"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:125px;line-height:1.25;font-family:sans-serif;stroke-width:0.99999994px"
+           id="tspan96137-4-9"
+           y="2148.614"
+           x="710.52814"
+           sodipodi:role="line">Conclusive difference</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.3866663px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222215px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="241.85899"
+       y="-37.225914"
+       id="text96135-0-8-6"><tspan
+         sodipodi:role="line"
+         x="241.85899"
+         y="-37.225914"
+         id="tspan96137-4-9-4"
+         style="font-size:35.27777481px;line-height:1.25;font-family:sans-serif;stroke-width:0.28222215px">Conclusive similarity</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-798.28583"
+       y="-33.806656"
+       id="text101"><tspan
+         sodipodi:role="line"
+         x="-798.28583"
+         y="-33.806656"
+         id="tspan99"
+         style="stroke-width:0.26458332px"><tspan
+           x="-798.28583"
+           y="-33.806656"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777481px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke:#ff0000;stroke-width:0.26458332px;stroke-opacity:1"
+           id="tspan97">A failure to show</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-56.117619"
+       y="-112.26371"
+       id="text95"><tspan
+         sodipodi:role="line"
+         x="-56.117619"
+         y="-112.26371"
+         id="tspan93"
+         style="stroke-width:0.26499999"><tspan
+           x="-56.117619"
+           y="-112.26371"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777481px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ff0000;stroke:#ff0000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="tspan91">Does not imply</tspan></tspan></text>
+    <g
+       id="g2376"
+       transform="translate(0.13196211,5.2916971)">
+      <g
+         id="g2413"
+         transform="translate(742.34524,-199.57143)"
+         style="stroke:#ff0000;stroke-opacity:1">
+        <g
+           id="g2332"
+           transform="matrix(1.4107143,0,0,1,-128.43091,-187.13596)"
+           style="stroke:#ff0000;stroke-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path2311"
+             d="m -430.89286,322.70237 h 84.66667 v 0"
+             style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path2311-3"
+             d="m -430.89286,346.21241 h 84.66667 v 0"
+             style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -639.6113,115.57142 39.46067,31.75 -39.46067,31.75 v 0"
+           id="path2359"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2382"
+           d="m -658.60144,102.32791 -59.99137,89.98703 v 0"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:12.39978695;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

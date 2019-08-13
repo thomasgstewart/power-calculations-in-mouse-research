@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="140.28204mm"
+   height="21.644024mm"
+   viewBox="0 0 140.28204 21.644024"
+   version="1.1"
+   id="svg15113"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="conclusive-difference.svg">
+  <defs
+     id="defs15107" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-240.61433"
+     inkscape:cy="55.852856"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1859"
+     inkscape:window-height="1025"
+     inkscape:window-x="61"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata15110">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.739921,-141.96704)">
+    <g
+       id="g15041"
+       transform="matrix(0.09227402,0,0,0.09227402,168.36631,-40.429219)">
+      <rect
+         y="1982.4067"
+         x="-1366.5603"
+         height="223.11017"
+         width="1508.8245"
+         id="rect13941-3"
+         style="opacity:1;fill:#75ad00;fill-opacity:0.31372549;stroke:#75ad00;stroke-width:11.45232582;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.6" />
+      <text
+         id="text96135-0-8-6"
+         y="2140.5623"
+         x="-1284.5724"
+         style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:125px;line-height:1.25;font-family:sans-serif;stroke-width:0.99999982px"
+           id="tspan96137-4-9-4"
+           y="2140.5623"
+           x="-1284.5724"
+           sodipodi:role="line">Conclusive difference</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,232 @@
+Power calculations for mouse research
+========================================================
+author: Thomas G. Stewart, PhD
+date: 13 August 2019
+autosize: true
+width:1024
+height:768
+transition: fade
+transition-speed: fast
+
+These slides were prepared for the 2019 Vanderbilt Mouse Kidney Injury Workshop [ (link)](https://www.mc.vanderbilt.edu/vckd/events/2019/workshop/) on 13 August 2019.
+
+<style>
+.reveal h1, .reveal h2, .reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+.footer {
+  color: black; background: none;
+  position: fixed; top: 90%;
+  text-align:left; width:100%;
+}
+div.centered {
+  position: fixed; 
+  top: 25%;
+  left:10%;
+  text-align:center; 
+  width:80%;
+  margin:auto;
+  border: 0px;
+}
+
+.section .reveal .state-background{
+background-color:#343777;
+}
+
+.reveal pre code{
+font-size:1em;
+line-height:1.2em;
+}
+
+.reveal pre{
+margin:0px;
+width:99%;
+}
+
+.reveal section img{
+box-shadow: 0 0 0 0;
+}
+</style>
+
+```{r, include = FALSE}
+require(tgsify)
+
+```
+
+
+Slides
+======
+
+<br><br>
+These slides are available on my faculty page under **Teaching**
+<br><br><br>
+<h2>tgstewart.xyz</h2>
+
+
+The goals of this session are to
+========================================================
+- provide a big picture overview of power calculations
+- explain when power calculations are (and are not) appropriate
+- introduce online resources for power calculations
+- work through **hands-on** examples of calculating power
+
+
+The big picture
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-01.svg)
+
+The big picture
+========================================================
+transition: none
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+Important side note
+========================================================
+type: prompt
+incremental: true
+
+As an example, consider a comparison of means between two groups.
+
+```{r, echo = FALSE, fig.width = 8, fig.height = 8, fig.align='center'}
+set.seed(32)
+N <- 14
+G <- rep(1:2, each = N)
+Y <- rnorm(2*N,G,2)
+plotstyle(style = upright, oma = c(1,1,1,1), cex.axis = 2, cex.lab = 3, mgp = c(1.2, 0.5, 0), tcl = 1)
+boxplot(Y ~ G, xlab = "Group", ylab = "", cex = 0)
+regimented_jitter(1,Y[G==1],2, bg = "blue")
+regimented_jitter(2,Y[G==2],2, bg = "red")
+```
+
+***
+
+What is the interpretation if $\ p < 0.05$?
+
+![](conclusive-difference.svg)
+
+What is the interpretation if $\ p > 0.05$?
+
+Important side note
+========================================================
+type: prompt
+incremental: true
+
+![](failure-to-show-difference-is-not-similarity.svg)
+
+Important side note
+========================================================
+type: prompt
+incremental: true
+
+![](failure-to-show-difference-is-similarity-or-inconclusive.svg)
+
+### It is a mistake to say: *There was no difference in mean Y between groups.*
+
+### It is correct to say: *At the given sample size, a difference in mean Y was not detected.*
+
+### It is cutting-edge to use **a second-generation p-value** and to prespecify a meaningful **null region**.
+
+
+========================================================
+type: prompt
+
+<br><br><br>
+
+## Important side note over
+
+
+Back to the big picture
+========================================================
+
+## &nbsp;
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+
+Big picture
+========================================================
+
+## Suppose one knew the truth
+
+![](data-flow-steps-analysis-expanded-nopublication-03.svg)
+
+
+Big picture
+========================================================
+incremental: true
+<p></p>
+## Suppose one repeated the study multiple times
+
+![](data-flow-steps-analysis-expanded-nopublication-04.svg)
+
+***
+
+<p></p>
+## Would one get the same result each time?
+
+<br><br><br>
+
+# **Probably** not
+
+Key vocabulary
+========================================================
+
+# **Operating characteristic:**
+
+## The distribution of a study trait over repeated executions of the study.
+
+Types of study traits
+========================================================
+
+1. Sample size
+1. False positive rate
+1. False negative rate
+1. False direction rate
+
+
+Possible study traits
+========================================================
+
+1. Sample size
+1. False positive rate  **(Type I error)**
+1. False negative rate  **(Type II error)**
+1. False direction rate  **(Type S error)**
+
+Type I error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-1-error.svg)
+
+Type I error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-1-error-02.svg)
+
+Type I error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-1-error-03.svg)
+
+Type II error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-2-error-01.svg)
+
+Type II error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-2-error-02.svg)
+
+Type II error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-2-error-03.svg)
+
+Type II error
+========================================================
+
+![](data-flow-steps-analysis-expanded-nopublication-type-2-error-04.svg)
+
