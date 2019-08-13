@@ -11,6 +11,10 @@ transition-speed: fast
 These slides were prepared for the 2019 Vanderbilt Mouse Kidney Injury Workshop [(link)](https://www.mc.vanderbilt.edu/vckd/events/2019/workshop/) on 13 August 2019.
 
 <style>
+.reveal .fakeh2 {
+font-size: 1.3em;
+font-weight: bold;
+}
 .reveal h1, .reveal h2, .reveal h3 {
   word-wrap: normal;
   -moz-hyphens: none;
@@ -51,7 +55,8 @@ box-shadow: 0 0 0 0;
 
 ```{r, include = FALSE}
 require(tgsify)
-
+require(pwr)
+require(ggplot2)
 ```
 
 
@@ -71,23 +76,31 @@ The goals of this session are to
 - introduce online resources for power calculations
 - work through **hands-on** examples of calculating power
 
-The big picture
+
 ========================================================
+
+## The big picture
 
 ![](data-flow-steps-analysis-expanded-nopublication-01.svg)
 
 
-The big picture for an hypothesis driven, confirmatory study
+
 ========================================================
-transition: none
-incremental: true
+
+## The big picture for an **hypothesis driven, confirmatory study**
 
 ![](data-flow-steps-analysis-expanded-nopublication-01.svg)
 
-The big picture **for an hypothesis driven, confirmatory study**
+
 ========================================================
-transition: none
-incremental: true
+
+## The big picture **for an hypothesis driven, confirmatory study**
+
+![](data-flow-steps-analysis-expanded-nopublication-02.svg)
+
+========================================================
+
+## The big picture **for an hypothesis driven, confirmatory study**
 
 ![](data-flow-steps-analysis-expanded-nopublication-02.svg)
 
@@ -103,21 +116,40 @@ Hypothesis driven vs exploratory study
 
 ![](exploratory-comparison.svg)
 
-
-The big picture
 ========================================================
-transition: none
+<br><br><br>
+# The **deliverables** of your proposed study should match the type of study you are performing
 
-## For the moment, we are going to focus on hypothesis driven studies.
+Deliverables
+========================================================
+
+| Pilot | Exploratory | Confirmatory |
+|:-----:|:-----------:|:------------:|
+| Demonstration of logistical capability | Hypotheses for future research | Tested hypotheses, usually resulting in |
+| Collection of preliminary data | | + Conclusive difference |
+| Go/No go decision about next stepᵃ | | + Conclusive similarity |
+| | | + Inconclusive result |
+
+ᵃ This is different from an hypothesis test
+
+Helpful advice for pilot studies
+========================================================
+
+![](pilot-study-recommendations-paper.png)
+
+========================================================
+
+## For the remainder of the presentation, we are going to focus on hypothesis driven studies.
 
 ![](data-flow-steps-analysis-expanded-nopublication-02.svg)
 
 
-Important side note about hypothesis driven studies
 ========================================================
 type: prompt
 incremental: true
 
+<div class="fakeh2">Important side note about hypothesis driven studies</div>
+<br>
 As an example, consider a comparison of means between two groups.
 
 ```{r, echo = FALSE, fig.width = 8, fig.height = 8, fig.align='center'}
@@ -133,11 +165,11 @@ regimented_jitter(2,Y[G==2],2, bg = "red")
 
 ***
 
-What is the interpretation if $\ p < 0.05$?
+<br><br><br>What is the interpretation if <br>p< 0.05?
 
 ![](conclusive-difference.svg)
 
-What is the interpretation if $\ p > 0.05$?
+What is the interpretation if <br>p > 0.05?
 
 Important side note
 ========================================================
@@ -183,7 +215,7 @@ Big picture
 
 ![](data-flow-steps-analysis-expanded-nopublication-03.svg)
 
-Note that the Q changes to A.
+Note that the ? changes to A.
 
 Big picture
 ========================================================
@@ -202,6 +234,25 @@ incremental: true
 
 # **Probably** not
 
+Big picture
+========================================================
+incremental: false
+transition: none
+<p></p>
+## Suppose one repeated the study multiple times
+
+![](data-flow-steps-analysis-expanded-nopublication-05.svg)
+
+***
+
+<p></p>
+## Would one get the same result each time?
+
+<br><br><br>
+
+# **Probably** not
+
+
 Key vocabulary
 ========================================================
 
@@ -216,6 +267,7 @@ Types of study traits
 1. False positive rate
 1. False negative rate
 1. False direction rate
+1. Cluster stability
 
 
 Possible study traits
@@ -225,6 +277,19 @@ Possible study traits
 1. False positive rate  **(Type I error)**
 1. False negative rate  **(Type II error)**
 1. False direction rate  **(Type S error)**
+1. Cluster stability
+
+Type I error
+========================================================
+
+![](type-i-error-definition.svg)
+
+
+Type I error
+========================================================
+
+![](type-i-error-definition-02.svg)
+
 
 Type I error
 ========================================================
@@ -240,6 +305,18 @@ Type I error
 ========================================================
 
 ![](data-flow-steps-analysis-expanded-nopublication-type-1-error-03.svg)
+
+Type II error
+========================================================
+
+![](type-ii-error-definition-01.svg)
+
+
+Type II error
+========================================================
+
+![](type-ii-error-definition-02.svg)
+
 
 Type II error
 ========================================================
@@ -283,17 +360,128 @@ incremental: true
 
 ### **Data scientists** prefer that study analysis plans use methods that maximize power.
 
-
-
-
-
 Operating characteristics
 ========================================================
 incremental: true
 <br><br>
 ## When should we NOT care about **power**?
 
-### **Grant reviewers** generally prefer to fund projects that will lead to conclusive results.
+### After the data is collected.
 
-### **Data scientists** prefer that study analysis plans use methods that maximize power.
+### After the analysis has been performed.
 
+Post-Hoc Power Is Not A Thing
+========================================================
+
+## Helpful resource: **DATAMETHODS.org**
+
+![](post-hoc-power-is-not-a-thing.svg)
+
+How to calculate power
+========================================================
+
+1. Simulation (prefered, for simple and complex study designs)
+2. Calculators (for simple designs)
+
+
+Simulation
+========================================================
+
+![](simulated-power-01.svg)
+
+Simulation
+========================================================
+
+![](simulated-power-02.svg)
+
+Simulation
+========================================================
+
+![](simulated-power-03.svg)
+
+Simulation
+========================================================
+
+Needed Information:
+
+1. Study design
+1. Analysis plan
+1. Approximate distribution of primary outcome
+1. Approximate distribution of primary exposure
+1. Parameters of interest (N, effect size, etc.)
+
+
+Power calculators (for simple study designs)
+========================================================
+
+Needed Information:
+
+1. Study design
+1. Analysis plan
+1. Mean and SD of primary outcome
+1. Parameters of interest (N, effect size, etc.)
+
+Online calculators (for simple study designs)
+========================================================
+
+1. Sealed Envelope: https://www.sealedenvelope.com/
+1. SWOG Stat: https://stattools.crab.org/
+1. Sample Size.net: https://www.sample-size.net/
+
+How to present power
+========================================================
+
+## Fix N
+
+```{r, echo = FALSE, fig.width = 8, fig.height = 8, fig.align='center'}
+p1 <- pwr.t.test(n = 50, d = seq(0,2,by = 0.02), sig.level = 0.05, type = c("two.sample")) 
+p1 %>% 
+  with({data.frame(d, power)}) %>% 
+  ggplot() +
+  aes(d, power) +
+  geom_point(size = 4) +
+  theme_minimal(base_size = 25) +
+  labs(x = "Effect size", title = "Power when N = 50", y = "Power")
+```
+
+How to present power
+========================================================
+
+## Fix the effect size
+
+```{r, echo = FALSE, fig.width = 8, fig.height = 8, fig.align='center'}
+p1 <- pwr.t.test(n = seq(5,100,by=5), d = .5, sig.level = 0.05, type = c("two.sample")) 
+p1 %>% 
+  with({data.frame(x=n, power)}) %>% 
+  ggplot() +
+  aes(x, power) +
+  geom_point(size = 4) +
+  theme_minimal(base_size = 25) +
+  labs(x = "N", title = "Power when effect size = 0.5", y = "Power")
+```
+
+How to present power
+========================================================
+
+## Fix the power
+
+```{r, echo = FALSE, fig.width = 8, fig.height = 8, fig.align='center'}
+n <- seq(50,100,by=5)
+pp <- n
+for(i in seq_along(n)){
+pp[i] <- pwr.t.test(n = n[i], power = .8, sig.level = 0.05, type = c("two.sample"))$d 
+}
+data.frame(x=n, d = pp) %>% 
+  ggplot() +
+  aes(x, d) +
+  geom_point(size = 4) +
+  theme_minimal(base_size = 25) +
+  labs(x = "N", y = "Minimal Detectable Difference", title = "Minimal Detectable Difference\nwhen power = 0.8")
+```
+
+Hands-on (simple study designs)
+========================================================
+
+1. **How many** subjects are required to have a 90% chance of detecting, as significant at the 5% level, a decreased mortality rate from 45% in the control group to 25% in the experimental group.
+
+2. With 25 subjects in each group, **what is the minimal detectable difference** in mean creatinine at 90% power when α = 0.05 and SD = 1.
